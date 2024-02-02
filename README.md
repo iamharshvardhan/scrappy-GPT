@@ -1,8 +1,12 @@
-# GPT-from-scratch | Bigram Model for Character-Level Text Generation
+# scrappyGPT | GPT-from-scratch | Bigram Model for Character-Level Text Generation
+
+<img src="./data/nanogpt.jpg" width=60% alt=boat><img src="./data/scrappy-boat.jpeg" width=30.3%>
 
 This project implements a bigram model for character-level text generation using PyTorch. The bigram model predicts the next character in a sequence based on the current character.
 
-The [data](./data/input.txt) used here to train the neural net is a Shakesperean play "Coriolanus" from Act 1, Scene 1 to Act 2, Scene 2.
+This is a super simple implementation of this paper: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762v1.pdf)
+
+The [data](./data/input.txt) used here to train the neural net is a Shakesperean play "Coriolanus" from Act 1, Scene 1 to Act 2, Scene 1.
 
 ## Usage
 
@@ -34,18 +38,11 @@ The script consists of the following components:
   - `FeedForward`: Implements the feedforward network.
   - `Block`: Represents a transformer block consisting of communication followed by computation.
   - `BigramLanguageModel`: Implements the bigram language model.
-- Training Loop: Trains the bigram model using stochastic gradient descent.
 - Text Generation: Generates text based on the trained bigram model.
 
-## Dependencies
-
-- Python 3.x
-- PyTorch
-
-## Example
+## Run the script
 
 ```python
-# Run the script
 python bigram_model.py
 ```
 
@@ -53,5 +50,9 @@ python bigram_model.py
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
+## Acknowledgement
+
+This project was made possible because of [this](https://www.youtube.com/watch?v=kCc8FmEb1nY) lecture by Andrej Karpathy, and was inspired by [nanoGPT](https://github.com/karpathy/nanoGPT).
+
 ---
-Feel free to customize and extend the script according to your specific needs! If you have any questions or encounter any issues, please don't hesitate to contact the author.
+Feel free to customize and extend the script according to your specific needs!
