@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Acknowledgement
 
-This project was made possible because of [this](https://www.youtube.com/watch?v=kCc8FmEb1nY) lecture by Andrej Karpathy, and was inspired by [nanoGPT](https://github.com/karpathy/nanoGPT).
+This project was made possible because of [this](https://www.youtube.com/watch?v=kCc8FmEb1nY) lecture by Andrej Karpathy and was inspired by [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 ---
 Feel free to customize and extend the script according to your specific needs!
